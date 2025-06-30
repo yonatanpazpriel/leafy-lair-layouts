@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from "react-router-dom";
-import { Leaf, Home, Bed, ChefHat } from "lucide-react";
+import { Leaf, Home, Bed, ChefHat, Grid3X3 } from "lucide-react";
 
 const Navigation = () => {
   const location = useLocation();
@@ -22,6 +22,13 @@ const Navigation = () => {
               className={`nav-link ${isActive('/') ? 'text-primary' : ''}`}
             >
               Home
+            </Link>
+            <Link 
+              to="/all-plants" 
+              className={`nav-link flex items-center gap-2 ${isActive('/all-plants') ? 'text-primary' : ''}`}
+            >
+              <Grid3X3 className="w-4 h-4" />
+              All Plants
             </Link>
             <Link 
               to="/living-room" 
