@@ -1,5 +1,6 @@
 
 import Navigation from "../components/Navigation";
+import InteractivePlantImage from "../components/InteractivePlantImage";
 import { Home } from "lucide-react";
 
 const LivingRoom = () => {
@@ -19,11 +20,7 @@ const LivingRoom = () => {
         </div>
 
         <div className="flex justify-center">
-          <img 
-            src="/lovable-uploads/b58fa7ba-714d-4ee7-ad9b-59f80d42244c.png" 
-            alt="Living Room Plant Collection"
-            className="w-full max-w-4xl h-auto object-contain"
-          />
+          <InteractivePlantImage />
         </div>
       </div>
     </div>
