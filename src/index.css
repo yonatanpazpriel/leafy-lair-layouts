@@ -3,37 +3,37 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Plant Portfolio Design System - Dark Green & Maroon Theme */
+/* Plant Portfolio Design System - Tan/Yellow & Dark Green Theme */
 
 @layer base {
   :root {
-    --background: 140 20% 8%;
-    --foreground: 120 15% 92%;
+    --background: 45 40% 85%;
+    --foreground: 140 60% 15%;
 
-    --card: 140 25% 12%;
-    --card-foreground: 120 15% 92%;
+    --card: 45 30% 88%;
+    --card-foreground: 140 60% 15%;
 
-    --popover: 140 25% 12%;
-    --popover-foreground: 120 15% 92%;
+    --popover: 45 30% 88%;
+    --popover-foreground: 140 60% 15%;
 
-    --primary: 340 70% 35%;
-    --primary-foreground: 120 15% 92%;
+    --primary: 140 70% 25%;
+    --primary-foreground: 45 40% 92%;
 
-    --secondary: 140 30% 15%;
-    --secondary-foreground: 120 15% 92%;
+    --secondary: 45 25% 75%;
+    --secondary-foreground: 140 60% 15%;
 
-    --muted: 140 25% 18%;
-    --muted-foreground: 120 10% 65%;
+    --muted: 45 20% 70%;
+    --muted-foreground: 140 40% 35%;
 
-    --accent: 340 60% 25%;
-    --accent-foreground: 120 15% 92%;
+    --accent: 140 60% 30%;
+    --accent-foreground: 45 40% 92%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 140 25% 20%;
-    --input: 140 25% 20%;
-    --ring: 340 70% 35%;
+    --border: 140 30% 60%;
+    --input: 45 25% 75%;
+    --ring: 140 70% 25%;
 
     --radius: 0.75rem;
   }
@@ -46,7 +46,7 @@
 
   body {
     @apply bg-background text-foreground font-sans;
-    background: hsl(140, 30%, 8%);
+    background: hsl(45, 40%, 85%);
     min-height: 100vh;
   }
 }
@@ -69,6 +69,6 @@
   }
   
   .hero-gradient {
-    background: hsl(140, 30%, 10%);
+    background: hsl(45, 35%, 82%);
   }
 }
